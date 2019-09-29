@@ -297,31 +297,31 @@ function muestraResultado() {
     var img = document.getElementById('img');
 
     if (acertadas == 0) {
-        var total = `<div class="alert alert-info">Uy Estamos mal no asertamos ni 1 de 5 </div>`;
+        var total = `<div class="alert alert-info">Uy Estamos mal no acertamos ni 1 de 5 </div>`;
         imga();
 
     }
     if (acertadas == 1) {
-        var total = `<div class="alert alert-info"> Lo siento solo asertaste 1</div>`;
+        var total = `<div class="alert alert-info"> Lo siento solo acertaste 1</div>`;
         imga();
 
     }
     if (acertadas == 2) {
-        var total = `<div class="alert alert-info">Xd que mal solo asertaste 2 de 5</div>`;
+        var total = `<div class="alert alert-info">Xd que mal solo acertaste 2 de 5</div>`;
         // img.innerHTML = `<img src="/img/triste.png">`;
         imga();
     }
     if (acertadas == 3) {
-        var total = `<div class="alert alert-info">Hay vamos asertaste 3 de 5</div>`;
+        var total = `<div class="alert alert-info">Hay vamos acertaste 3 de 5</div>`;
         imga1();
     }
     if (acertadas == 4) {
-        var total = `<div class="alert alert-info"> Uuuu buena asertaste 4 de 5... Te falto poco</div>`;
+        var total = `<div class="alert alert-info"> Uuuu buena acertaste 4 de 5... Te falto poco</div>`;
         imga1();
 
     }
     if (acertadas == 5) {
-        var total = `<div class="alert alert-info">Felicitaciones...asertaste 5 de 5...Eres el/la mejor</div>`;
+        var total = `<div class="alert alert-info">Felicitaciones...acertaste 5 de 5...Eres el/la mejor</div>`;
         imga1();
 
     }
