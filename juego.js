@@ -216,6 +216,7 @@ document.getElementById('jugar').addEventListener('click', function(e) {
 document.getElementById('boton').addEventListener('click', function(e) {
     var error = document.getElementById('error');
     var entrada = document.getElementById('dato').value;
+    entrada = entrada.toLowerCase();
 
     if (entrada == "") {
 
