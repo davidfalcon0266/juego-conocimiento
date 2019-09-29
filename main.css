@@ -1,0 +1,17 @@
+.todo {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+#img,
+#img1,
+img {
+    display: block;
+    width: 70px !important;
+    height: 70px !important;
+    margin: 0 auto;
+}

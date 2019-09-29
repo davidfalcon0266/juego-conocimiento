@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>juego de preguntas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <form class="todo border mt-5 bg-dark text-white" id="todo">
+
+        <div class="container pt-2 ">
+            <audio autoplay src="/msica/musica.ogg.mp3"></audio>
+
+            <div class="principal text-center" id="principal">
+                <label for="">Bienvenido..  como te llamas</label>
+                <input class="text-center btn btn-warning btn-block text-dark" type="text" placeholder="Introduce tu nombre" id="usuario">
+                <input class="btn btn-primary btn-block my-3" type="submit" id="jugar" value="jugar">
+                <div class="" id="mensaje"></div>
+            </div>
+            <div class="ocultar text-center" id="muestra">
+                <div class="hola alert alert-info" id="hola"></div>
+                <h4 id="pregunta"></h4>
+                <input class="btn btn-success btn-block mb-3 text-white" type="text" id="dato">
+                <button class="btn btn-outline-warning mb-3" id="boton"> Siguiente Pregunta</button>
+                <div id="error"></div>
+                <div id="img" class="mb-3"><img src="img/triste.png" alt=""></div>
+                <div id="img1" class="mb-3"><img src="img/alegre.png" alt=""></div>
+
+
+            </div>
+            <div id="nuevo" class="text-center">
+                <p id="solucion"></p>
+
+                <button class="btn btn-warning mb-3" id="nuevos"> jugar de nvo</button>
+            </div>
+            <div id="resuelto0"></div>
+            <div id="resuelto1"></div>
+            <div id="respuestaResuelta1"></div>
+
+            <div id="resuelto2"></div>
+            <div id="respuestaResuelta2"></div>
+
+            <div id="resuelto3"></div>
+            <div id="respuestaResuelta3"></div>
+
+            <div id="resuelto4"></div>
+            <div id="respuestaResuelta4"></div>
+
+            <div id="resuelto5"></div>
+            <div id="respuestaResuelta5"></div>
+
+
+
+
+
+        </div>
+    </form>
+
+    <script src="juego.js"></script>
+
+</body>
+
+</html>
